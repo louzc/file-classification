@@ -8,7 +8,7 @@ audio,video,compressedfiles,photo,program,officeword,officeexcle,officeppt,pdf,t
 documentfiles = officeexcle+officeppt+officeword+txt+pdf
 path = input("请输入路径，按回车键运行")
 if not path:
-    path=r"C:\Users\louzh\下载"
+    path=r"C:\Users\%username%\下载"
 def movefile(newpath):
     if not os.path.exists(f"{path}/{newpath}"):
         os.makedirs(f"{path}/{newpath}")
