@@ -1,4 +1,4 @@
 # file-classification
-A simple file classification software
+简单的文件分类软件
 
-The usage method is very simple, just run and enter the path that needs to be classified, such as the download folder, and then press Enter.
+使用方法非常简单，只需运行并输入需要分类的路径，例如下载文件夹，然后按Enter。
