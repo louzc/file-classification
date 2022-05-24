@@ -20,5 +20,5 @@ for i in os.listdir(inputpath):
             if extName in fileExtName[j]:
                 moveMyFile(fileExtName2[j])
             j=j+1
-print("请按任意键退出~")
+print("请按任意键退出")
 ord(msvcrt.getch())
